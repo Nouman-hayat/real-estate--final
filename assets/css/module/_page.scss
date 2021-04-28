@@ -1,0 +1,1038 @@
+.social-contact-wrapper {
+    ul {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        list-style-type: none;
+        li {
+            margin-right: 10px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: grid;
+            place-items: center;
+            background: rgba($color: #c5c3c3, $alpha: 0.5);
+            transform: scale(1);
+            transition: transform 100ms;
+            &:hover {
+                background-color: $green;
+                transform: scale(1.1);
+            }
+            a {
+                text-decoration: none;
+                color: #ffffff;
+            }
+        }
+    }
+}
+
+
+/*=============================================
+=            our feature            =
+=============================================*/
+
+.feature-wrapper {
+    .row {
+        margin: 0;
+    }
+    .col-md-4:hover {
+        background-color: $green;
+        color: white;
+    }
+    .col-md-4:hover .overlay {
+        opacity: 0.8;
+    }
+    a {
+        color: $black;
+    }
+    .feature-tabs {
+        padding-top: 90px;
+        h5 {
+            text-align: center;
+        }
+        p {
+            text-align: center;
+        }
+        .feature-icon-wrapper {
+            position: absolute;
+            top: 0%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            .feature-img-wrapper {
+                position: relative;
+                border: 3px solid white;
+                width: 150px;
+                height: 150px;
+                overflow: hidden;
+                border-radius: 100%;
+                border: 3px solid white;
+                background-color: aqua;
+                img {
+                    width: 150%;
+                }
+                .overlay {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: $black;
+                    span {
+                        position: absolute;
+                        z-index: 1;
+                        font-size: 300%;
+                        left: 50%;
+                        top: 50%;
+                        transform: translate(-50%, -50%);
+                        color: white;
+                        .icon-settings {
+                            font-weight: 100;
+                            font-size: 90%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*=====  End of features  ======*/
+
+
+/*=============================================
+=                   best house                  =
+=============================================*/
+
+.best-house-wrapper {
+    color: white;
+    .row {
+        .col-md-4 {
+            .card {
+                background-color: transparent;
+                .card-lead-text {
+                    position: absolute;
+                    top: 0;
+                    left: 50%;
+                    transform: translate(-50%, 0);
+                    h5 {
+                        text-align: center;
+                        color: white;
+                        background-color: $green;
+                        padding: $lead-padding;
+                    }
+                }
+                .detail-wrapper {
+                    position: absolute;
+                    width: 100%;
+                    bottom: 0;
+                    margin: 0;
+                    left: 0;
+                    .card {
+                        border: none;
+                        .row {
+                            padding: 0 10px;
+                            .col-2 {
+                                img {
+                                    width: 60px;
+                                    clip-path: circle();
+                                }
+                            }
+                            .col-8 {
+                                .card-body {
+                                    padding: 0;
+                                    text-align: left;
+                                    margin-left: 2px;
+                                    h5 {
+                                        font-size: 80%;
+                                        font-weight: 600;
+                                        margin: 0;
+                                    }
+                                    a {
+                                        text-decoration: none;
+                                        color: white;
+                                        font-size: 80%;
+                                        font-weight: 400;
+                                    }
+                                }
+                            }
+                            .col-2 {
+                                text-align: right;
+                                span {
+                                    font-size: 120%;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                    }
+                    .house-detail {
+                        margin: 10px 0;
+                        text-align: center;
+                        .col-3 {
+                            a {
+                                text-decoration: none;
+                                font-size: 80%;
+                                color: white;
+                                span {
+                                    margin-right: 5px;
+                                    font-size: 130%;
+                                }
+                            }
+                            h5 {
+                                margin: 10px 0 0 0;
+                                font-size: 95%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*============  End of best house   =============*/
+
+#video-wrapper {
+    .card-img-overlay {
+        background-color: $black;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        opacity: 0.9;
+        color: white;
+        .video-content-wrapper {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .lead-large-text {
+            margin-bottom: 20px;
+            color: white;
+            font-weight: 700;
+        }
+        .lead-small-text {
+            font-size: 100%;
+            font-weight: 300;
+            color: white!important;
+        }
+        .video-icon {
+            background-color: white;
+            text-align: center;
+            width: 100px;
+            height: 100px;
+            place-items: center;
+            border: 1px solid transparent;
+            border-radius: 50%;
+            display: grid;
+            position: relative;
+            z-index: +1;
+            margin: 0px auto;
+            margin-top: 50px;
+            & :after {
+                content: "";
+                background-color: white;
+                width: 100%;
+                height: 100%;
+                box-sizing: border-box;
+                z-index: 1111;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                top: 0;
+                right: 0;
+                z-index: -1;
+                border: 1px solid transparent;
+                border-radius: 50%;
+                animation: pulse 1300ms infinite;
+            }
+            @keyframes pulse {
+                0% {
+                    transform: scale(0.9);
+                    opacity: 0.9;
+                }
+                100% {
+                    transform: scale(1.3);
+                    opacity: 0;
+                }
+            }
+            .icon-play {
+                color: $green;
+                font-size: 300%;
+            }
+        }
+    }
+    #video-overlay-wrapper {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 99999;
+        display: none;
+        width: 100%;
+        height: 100%;
+        background: rgba($color: #000000, $alpha: 0.8);
+        .video-content {
+            position: relative;
+            width: 55%;
+            margin: 0px auto;
+            .embed-responsive {
+                position: relative;
+                width: 95%;
+                margin: 0px auto;
+                margin-top: 70px;
+                .close-button {
+                    color: white;
+                    position: absolute;
+                    background-color: $black;
+                    top: 0px;
+                    right: 0px;
+                    z-index: +11111;
+                    display: grid;
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 2%;
+                    place-items: center;
+                    .icon-close {
+                        font-size: 110%;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*=============================================
+=                   categories                   =
+=============================================*/
+
+.categories-wrapper {
+    .row {
+        .col-md-4,
+        .col-md-8 {
+            margin: 10px 0;
+            padding: 0 10px;
+        }
+    }
+    .card {
+        border-radius: 0;
+        .card-img-overlay {
+            background: rgba($color: #3d3b3b, $alpha: 0.2)!important;
+            border-radius: 0;
+            p {
+                padding: 10px 15px;
+                background-color: $green;
+                display: inline;
+                font-size: 70%;
+            }
+        }
+    }
+}
+
+
+/*============  End of categories  =============*/
+
+
+/*=============================================
+=                   testomonial                   =
+=============================================*/
+
+#comments-wrapper {
+    .owl-carousel {
+        width: 50%;
+        position: relative;
+        margin: auto;
+    }
+    .card-img-overlay {
+        box-sizing: border-box;
+        padding: 10px;
+        .sect-space {
+            padding: 20px 0;
+        }
+        .comments-content-wrapper {
+            box-sizing: border-box;
+            position: relative;
+            .prev-btn {
+                position: absolute;
+                top: 65%;
+                left: 15%;
+                span {
+                    font-size: 300%;
+                    font-weight: 100;
+                    color: #37425F;
+                }
+            }
+            .next-btn {
+                position: absolute;
+                top: 65%;
+                right: 15%;
+                span {
+                    font-size: 300%;
+                    font-weight: 100;
+                    color: #37425F;
+                }
+            }
+            .lead-small-text {
+                color: $green!important;
+                font-weight: 600;
+            }
+            .lead-large-text {
+                font-weight: 700;
+            }
+            .comments-profile-wrapper {
+                position: relative;
+                margin: 0 auto;
+                padding: 20px 20px;
+                border: 2px solid #37425F;
+                margin-top: 50px;
+                p {
+                    font-weight: 500;
+                    font-size: 110%;
+                    margin-top: 25px;
+                    margin-bottom: 5px;
+                }
+                h5 {
+                    font-weight: 400;
+                    font-size: 130%;
+                    margin-bottom: 15px;
+                }
+                .fill {
+                    color: #FFAD00;
+                    font-size: 140%;
+                }
+                .unfill {
+                    color: rgb(255, 255, 255);
+                    font-size: 140%;
+                }
+                .testomonial-dp {
+                    position: absolute;
+                    top: -25%;
+                    left: 50%;
+                    transform: translate(-50%, 0%);
+                    width: 90px;
+                    border: 5px solid $green;
+                    border-radius: 50%;
+                    height: 90px;
+                    box-sizing: border-box;
+                    overflow: hidden;
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*============  End of testomonial  =============*/
+
+
+/*=============================================
+=                   our properties                   =
+=============================================*/
+
+#properties-wrapper {
+    .col-md-4 {
+        margin: 10px 0;
+        padding: 0 10px;
+    }
+    .nav-pills .nav-link.active,
+    .nav-pills .show>.nav-link {
+        color: #fff;
+        background-color: $green;
+    }
+    a {
+        color: $black;
+        background-color: rgb(248, 246, 246);
+    }
+    .nav-pills .nav-link {
+        border-radius: 0rem;
+        padding: .5rem 2.5rem;
+    }
+    .lead-large-text {
+        margin-bottom: 20px;
+    }
+    .card-img-overlay {
+        background: rgba($color: #3d3b3b, $alpha: 0.3);
+        .detail-wrapper {
+            position: absolute;
+            width: 100%;
+            bottom: 5%;
+            margin: 0;
+            left: 0;
+            .card {
+                border: none;
+                background-color: transparent;
+                color: white;
+                .row {
+                    padding: 0 10px;
+                    .col-2 {
+                        img {
+                            width: 60px;
+                            clip-path: circle();
+                        }
+                    }
+                    .col-8 {
+                        .card-body {
+                            padding: 0;
+                            text-align: left;
+                            margin-left: 2px;
+                            h5 {
+                                font-size: 80%;
+                                font-weight: 600;
+                                margin: 0;
+                            }
+                            a {
+                                text-decoration: none;
+                                color: white;
+                                background-color: transparent;
+                                font-size: 80%;
+                                font-weight: 400;
+                            }
+                        }
+                    }
+                    .col-2 {
+                        text-align: right;
+                        span {
+                            font-size: 120%;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+            .house-detail {
+                margin: 10px 0;
+                text-align: center;
+                .col-3 {
+                    a {
+                        text-decoration: none;
+                        font-size: 80%;
+                        color: white;
+                        span {
+                            margin-right: 5px;
+                            font-size: 130%;
+                        }
+                    }
+                    h5 {
+                        margin: 10px 0 0 0;
+                        font-size: 95%;
+                    }
+                }
+            }
+        }
+    }
+    .description-wrapper {
+        .card-body {
+            background-color: #F7F7F7;
+            color: $black;
+            .card-title {
+                color: $black;
+            }
+            .card-text {
+                margin-top: 15px;
+                color: $black;
+            }
+            a {
+                background-color: transparent;
+                font-size: 90%;
+                margin: 0 10px 0 0;
+                color: $black;
+                text-decoration: none;
+                span {
+                    color: $green;
+                    font-size: 90%;
+                }
+            }
+            .lead-small-text {
+                padding: 3px 20px;
+                color: white;
+                background-color: $green;
+                display: inline;
+            }
+        }
+        .history-wrapper {
+            background-color: #ECECEC;
+            padding: .5rem 1.25rem;
+            ul {
+                display: flex;
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+            li {
+                padding: 3px 20px 3px 0;
+                font-size: 85%;
+                font-weight: 500;
+                color: #8a8888;
+            }
+        }
+    }
+}
+
+
+/*============  End of our properties  =============*/
+
+
+/*=============================================
+        =                   SUBMIT PROPERTY                   =
+        =============================================*/
+
+.submit-property-wrapper {
+    text-align: center;
+    .sect-space {
+        padding: 60px 0;
+    }
+    .card-img-overlay {
+        background: rgba($color: $black, $alpha: 0.9);
+        .lead-large-text {
+            color: white;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        .card-text {
+            font-size: 150%;
+            padding: 0 200px;
+            font-weight: 400;
+        }
+        .lead-small-text {
+            color: $green!important;
+            font-weight: 600;
+            font-size: 100%;
+        }
+        .links-wrapper {
+            margin-top: 30px;
+            a {
+                font-weight: 600;
+                width: 150px;
+                color: white;
+                text-decoration: none;
+                background-color: $green;
+                display: inline-block;
+                padding: 1rem 2rem;
+                margin: 0 30px;
+            }
+        }
+    }
+}
+
+
+/*============  End of SUBMIT PROPERTY  =============*/
+
+
+/*=============================================
+        =                   our agent                   =
+        =============================================*/
+
+.agent-wrapper {
+    .agent-profile-wrapper {
+        .container {
+            .row {
+                .col-md-4 {
+                    padding: 0 10px;
+                    &:hover .card-body,
+                    &:hover .card-body .card-text,
+                    &:hover .card-body .card-title {
+                        background-color: $green;
+                        color: white
+                    }
+                    &:hover .card-body .social-links-wrapper ul li {
+                        background: $green;
+                        border: 1px solid rgb(243, 241, 241);
+                    }
+                    &:hover .card-body .social-links-wrapper ul li a {
+                        color: white;
+                    }
+                }
+                .card {
+                    .card-body {
+                        background-color: transparent;
+                        text-align: center;
+                        padding: 2.5rem;
+                        .card-text {
+                            text-align: center;
+                            color: $green;
+                            font-size: 90%;
+                        }
+                        .card-title {
+                            color: $black;
+                            margin-bottom: 8px;
+                        }
+                        .social-links-wrapper {
+                            margin: 0 auto;
+                            max-width: 90%;
+                            ul {
+                                display: flex;
+                                list-style-type: none;
+                                justify-content: space-evenly;
+                                margin: 0 auto;
+                                padding: 0;
+                                li {
+                                    width: 20%;
+                                    height: 10%;
+                                    border-radius: 50%;
+                                    margin: 0 2%;
+                                    text-align: center;
+                                    padding: 5%;
+                                    cursor: pointer;
+                                    background-color: transparent;
+                                    transition: all 200ms;
+                                    border: 1px solid #c5c5c5;
+                                    a {
+                                        text-decoration: none;
+                                        color: #c5c5c5;
+                                        font-weight: 400;
+                                        transition: all 100ms;
+                                    }
+                                    &:hover {
+                                        background: rgba($color: #e7e5e5, $alpha: 0.2);
+                                        border-color: $green;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*============  End of our agent  =============*/
+
+
+/*=============================================
+        =                   place                   =
+        =============================================*/
+
+.place-wrapper {
+    padding: 0;
+    .card-img-overlay {
+        background: rgba($color: $black, $alpha: 0.9);
+        .lead-small-text {
+            text-align: left;
+        }
+        .lead-large-text {
+            text-align: left;
+            color: white;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        .text-link {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .card-text {
+                width: 60%;
+                font-size: 120%;
+            }
+            a {
+                padding: 1rem 2rem;
+                background-color: $green;
+                color: white;
+                font-weight: 600;
+                width: 150px;
+                text-transform: uppercase;
+                text-align: center;
+                text-decoration: none;
+                background-color: $green;
+            }
+        }
+    }
+}
+
+
+/*============  End of place  =============*/
+
+
+/*=============================================
+        =                   logos                   =
+        =============================================*/
+
+.container {
+    .logo-wrapper {
+        height: 75px;
+        .logo-inner {
+            position: relative;
+            top: -75px;
+            left: 0;
+            width: 100%;
+            height: 150px;
+            background-color: $green;
+            display: flex;
+            color: white;
+            padding: 1rem 2rem;
+            justify-content: space-evenly;
+            align-items: center;
+            span {
+                font-size: 150px;
+            }
+        }
+    }
+}
+
+
+/*============  End of logos  =============*/
+
+
+/*=============================================
+        =                   news feed                   =
+        =============================================*/
+
+.newsfeed-wrapper {
+    .col-md-4 {
+        .card {
+            border: none;
+            .card-body {
+                position: relative;
+                top: -40px;
+                background-color: #F7F7F7;
+                border-radius: 5px;
+                margin: 0 1rem;
+                left: 0;
+                .card-content {
+                    a {
+                        margin-right: 20px;
+                        text-decoration: none;
+                        font-size: 90%;
+                        color: rgb(71, 71, 70);
+                        span {
+                            margin-right: 10px;
+                            font-size: 110%;
+                        }
+                    }
+                    .card-title {
+                        margin: 10px 0;
+                        color: rgb(26, 26, 1);
+                    }
+                    .card-text {
+                        color: rgb(71, 71, 70);
+                    }
+                    .arrow-wrapper {
+                        position: absolute;
+                        bottom: -20px;
+                        left: 55%;
+                        transform: translate(-50%, 0);
+                        a {
+                            color: white;
+                            text-decoration: none;
+                            span {
+                                background-color: $green;
+                                display: inline-block;
+                                padding: 15px;
+                                border-radius: 50%;
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*=============================================
+=                   bottom bar                   =
+=============================================*/
+
+.bottom-bar {
+    background-color: #0d2b5d;
+    .navbar {
+        padding: 0.5rem 0;
+    }
+    .navbar-light {
+        background-color: #0d2b5d;
+        .nav-link {
+            span {
+                padding: 15px;
+                background: rgba($color: #dfdfdf, $alpha: 0.2);
+                border-radius: 50%;
+                display: block;
+                color: white;
+                transform: scale(1);
+                transition: transform 100ms;
+                &:hover {
+                    background-color: $green;
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+    .logo-wrapper {
+        width: 50px;
+        height: 50px;
+        margin: 0px 20px 0 0px;
+        img {
+            width: 100%;
+        }
+    }
+    h1 {
+        color: rgb(255, 255, 255);
+        font-family: "Concert One", cursive;
+        span {
+            color: $green;
+        }
+    }
+}
+
+
+/*============  End of bottom bar  =============*/
+
+
+/*============  End of news feed  =============*/
+
+// contact us page
+
+/*=============================================
+=                   contact us detail                   =
+=============================================*/
+
+.contact-detail-wrapper {
+    h3 {
+        font-weight: 900;
+        color: $black;
+    }
+    p {
+        font-size: 90%;
+    }
+    .form-section {
+        .row {
+            .col-md-4,
+            .col-md-6,
+            .col-md-12 {
+                margin-bottom: 20px;
+            }
+            .form-control {
+                &:focus {
+                    border-color: rgb(192, 191, 191);
+                    outline: 0;
+                    box-shadow: none;
+                }
+            }
+            .btn-info {
+                background-color: $green;
+                border-color: $green;
+                &:focus {
+                    border-color: $green;
+                    outline: 0;
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+    .address-wrapper {
+        .col-12 {
+            margin-bottom: 10px;
+        }
+        a {
+            color: $black;
+            font-size: 90%;
+            span {
+                font-size: 110%;
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+
+/*============  End of contact us detail  =============*/
+
+
+/*=============================================
+=                   about us page                   =
+=============================================*/
+
+.aboutus-wrapper {
+    .lead-large-text {
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .lead-small-text {
+        width: 40%;
+        font-weight: 400;
+        text-align: left;
+        color: rgb(184, 179, 179);
+        font-size: 97%;
+    }
+    .about-detail {
+        padding: 20px;
+        p {
+            color: rgb(184, 179, 179);
+        }
+    }
+    .record-wrapper {
+        padding-top: 70px;
+        h1 {
+            font-weight: 800;
+            color: $black;
+            text-align: center;
+        }
+        p {
+            color: rgb(184, 179, 179);
+            text-align: center;
+        }
+    }
+}
+
+.team-wrapper {
+    padding-bottom: 70px;
+    background-color: white;
+    .container {
+        position: relative;
+        .team-profile-controls {
+            position: absolute;
+            top: 10px;
+            right: 0;
+            span {
+                margin-left: 20px;
+                font-size: 170%;
+                color: $black;
+                cursor: pointer
+            }
+        }
+    }
+    .lead-large-text {
+        color: $black;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .team-profile {
+        .team-content {
+            width: 100px;
+            height: 100px;
+            border-radius: 50px;
+            box-sizing: border-box;
+            overflow: hidden;
+            img {
+                width: 100%;
+            }
+        }
+        h4 {
+            color: $black;
+            margin: 5px 0;
+        }
+        h5 {
+            color: rgb(160, 158, 158);
+            font-size: 95%;
+        }
+        p {
+            color: rgb(184, 179, 179);
+        }
+    }
+}
+
+
+/*============  End of about us page  =============*/
+
+
+/*============  End of about us page  =============*/
+
+
+/*============  End of about us page  =============*/

@@ -1,0 +1,907 @@
+  // Extra small devices (portrait phones, less than 576px)
+  @media (max-width: 575.98px) {
+      .container {
+          width: 400px;
+      }
+      .sect-space {
+          padding: 40px 0;
+      }
+      .lead-small-text {
+          font-size: 75%;
+      }
+      .lead-large-text {
+          font-size: 100%;
+          margin-bottom: 30px;
+      }
+      #header-wrapper .content .container .menubar-wrapper .logo-wrapper {
+          margin: 0 8px 0 auto;
+      }
+      #header-wrapper .content .container .menubar-wrapper .navbar h1 {
+          margin: 0 auto 0 0;
+      }
+      #header-wrapper {
+          width: 100%;
+          height: 400px;
+      }
+      #header-wrapper .content .container h2 {
+          padding: 10px 50px;
+          font-size: 150%;
+      }
+      #header-wrapper .content .container .menubar-wrapper .nav-link,
+      #header-wrapper .content .container .menubar-wrapper .navbar .search-button {
+          padding-left: 20px;
+          padding-bottom: 10px;
+      }
+      #header-wrapper .content .container .menubar-wrapper .submit-wrapper {
+          display: none;
+      }
+      #header-wrapper .content .container .form-wrapper {
+          margin: 0;
+      }
+      #header-wrapper .content .container .form-wrapper .form-control-lg {
+          font-size: .8rem;
+          padding: .5rem;
+      }
+      #header-wrapper .content .container .form-wrapper .col {
+          padding: 0 2px;
+      }
+      #header-wrapper .content .container .form-wrapper .btn-lg {
+          font-size: .8rem;
+          padding: .5rem;
+      }
+      .feature-wrapper .feature-tabs .feature-icon-wrapper {
+          display: none;
+      }
+      .feature-wrapper .container {
+          margin: 40px auto 0 auto;
+          .row {
+              margin: 0;
+              padding: 0;
+          }
+      }
+      .feature-wrapper .feature-tabs {
+          padding: 20px;
+          p {
+              padding: 0 20px;
+          }
+      }
+      .best-house-wrapper .row .col-md-4 {
+          margin-bottom: 10px;
+      }
+      .best-house-wrapper .row .col-md-4 .card .card-lead-text h5 {
+          padding: 10px 30px;
+          font-size: 90%;
+      }
+      .best-house-wrapper .row .col-md-4 .card .detail-wrapper .house-detail .col-3 h5 {
+          margin-top: 0px;
+      }
+      .best-house-wrapper .row .col-md-4 .card .detail-wrapper .card .row .col-2 span {
+          padding-right: 15px;
+      }
+      #video-wrapper .card-img-overlay .video-icon {
+          margin-top: 20px;
+          width: 40px;
+          height: 40px;
+      }
+      #video-wrapper .card-img-overlay .video-icon .icon-play {
+          font-size: 120%;
+      }
+      #video-wrapper .card-img-overlay .lead-large-text {
+          margin-bottom: 2px;
+          padding: 0;
+      }
+      #video-wrapper .card-img-overlay .lead-small-text {
+          font-size: 60%;
+          margin-bottom: 0;
+          display: none;
+      }
+      #comments-wrapper .card-img-overlay .sect-space {
+          padding: 0;
+      }
+      #comments-wrapper .card-img-overlay .comments-content-wrapper .lead-small-text {
+          display: none!important;
+      }
+      #comments-wrapper .card-img-overlay .comments-content-wrapper .card-text {
+          display: none;
+      }
+      #comments-wrapper .card-img-overlay .comments-content-wrapper .lead-large-text {
+          margin: 2px;
+      }
+      #comments-wrapper .card-img-overlay .comments-content-wrapper .comments-profile-wrapper {
+          margin-top: 20px!important;
+      }
+      #comments-wrapper .card-img-overlay .comments-content-wrapper .comments-profile-wrapper .testomonial-dp {
+          display: none;
+      }
+      #comments-wrapper .card-img-overlay .comments-content-wrapper .comments-profile-wrapper {
+          p {
+              font-weight: 500;
+              font-size: 100%;
+              margin: 0;
+              margin-bottom: 2px;
+          }
+          h5 {
+              font-weight: 400;
+              font-size: 90%;
+              margin-bottom: 0px;
+          }
+      }
+      #comments-wrapper .card-img-overlay .comments-content-wrapper .comments-profile-wrapper {
+          padding: 0px;
+      }
+      #comments-wrapper .card-img-overlay .comments-content-wrapper .comments-profile-wrapper .fill,
+      #comments-wrapper .card-img-overlay .comments-content-wrapper .comments-profile-wrapper .unfill {
+          font-size: 50%;
+      }
+      #comments-wrapper .owl-carousel {
+          width: 80%;
+      }
+      #comments-wrapper .card-img-overlay .comments-content-wrapper .prev-btn {
+          left: 2%;
+      }
+      #comments-wrapper .card-img-overlay .comments-content-wrapper .next-btn {
+          right: 2%;
+      }
+      #comments-wrapper .card-img-overlay .comments-content-wrapper .next-btn span,
+      #comments-wrapper .card-img-overlay .comments-content-wrapper .prev-btn span {
+          font-size: 150%;
+      }
+      #comments-wrapper .card-img-overlay {
+          padding: 2px;
+      }
+      #properties-wrapper .card-img-overlay .detail-wrapper .card .row .col-2 span {
+          padding-right: 30px;
+      }
+      #properties-wrapper .description-wrapper .history-wrapper ul {
+          justify-content: space-evenly;
+      }
+      .submit-property-wrapper .sect-space {
+          padding: 5px;
+      }
+      .submit-property-wrapper .card-img-overlay .lead-large-text {
+          margin-bottom: 15px;
+      }
+      .submit-property-wrapper .card-img-overlay .lead-small-text {
+          font-size: 80%;
+          margin-bottom: 10px;
+      }
+      .submit-property-wrapper .card-img-overlay .card-text {
+          padding: 0px;
+          font-size: 50%;
+          display: none;
+          margin-bottom: 2px;
+      }
+      .submit-property-wrapper .card-img-overlay .links-wrapper a {
+          padding: 0.2rem;
+          width: 80px;
+          font-size: 90%;
+      }
+      .submit-property-wrapper .card-img-overlay .links-wrapper {
+          margin-top: 30px;
+      }
+      .agent-wrapper .agent-profile-wrapper .container .row .card .card-body {
+          padding: 2rem;
+      }
+      .agent-wrapper .agent-profile-wrapper .container .row .card .card-body .card-title {
+          font-size: 100%;
+      }
+      .agent-wrapper .agent-profile-wrapper .container .row .card .card-body .card-text {
+          font-size: 80%;
+      }
+      .agent-wrapper .agent-profile-wrapper .container .row .card .card-body .social-links-wrapper ul li {
+          height: 8%;
+          width: 18%;
+      }
+      .agent-wrapper .agent-profile-wrapper .container .row .card .card-body .social-links-wrapper ul li a {
+          font-size: 100%;
+      }
+      .agent-wrapper .agent-profile-wrapper .container .row .col-md-4 {
+          margin-bottom: 10px;
+      }
+      .place-wrapper .card-img-overlay {
+          padding: 5px;
+          .sect-space {
+              padding: 0;
+          }
+      }
+      .place-wrapper .card-img-overlay {
+          .lead-large-text {
+              margin-bottom: 2px;
+          }
+      }
+      .place-wrapper .card-img-overlay .text-link {
+          justify-content: flex-end;
+      }
+      .place-wrapper .card-img-overlay .text-link .card-text {
+          display: none;
+      }
+      .place-wrapper .card-img-overlay .text-link a {
+          padding: 0.2rem;
+          width: 80px;
+          font-size: 90%;
+      }
+      .container .logo-wrapper {
+          height: 50px;
+          .logo-inner {
+              height: 100px;
+              top: -50px;
+              padding: 0.2rem 2rem;
+              span {
+                  font-size: 70px;
+              }
+          }
+      }
+      footer .col-md-4 {
+          margin-bottom: 30px;
+      }
+      .bottom-bar {
+          .navbar-expand .navbar-nav .nav-link {
+              padding: 0;
+              margin-right: 5px;
+          }
+      }
+      .bottom-bar .navbar-light .nav-link span {
+          padding: 10px;
+          font-size: 50%;
+      }
+      .bottom-bar .logo-wrapper {
+          margin: 0px 8px 0 0px;
+      }
+      .aboutus-wrapper .about-detail {
+          padding: 20px 0;
+      }
+      .aboutus-wrapper .record-wrapper h1,
+      .aboutus-wrapper .record-wrapper p {
+          text-align: left;
+      }
+      //   contact us
+      .social-contact-wrapper ul li {
+          width: 40px;
+          height: 40px;
+      }
+      .social-contact-wrapper ul li {
+          margin-right: 2px;
+      }
+      .map-wrapper .lead-large-text {
+          font-size: 200%;
+      }
+      #video-wrapper #video-overlay-wrapper .video-content {
+          width: 100%;
+      }
+  }
+  
+  // Small devices (landscape phones, 576px and up)
+  @media (min-width: 576px) and (max-width: 767.98px) {
+      .sect-space {
+          padding: 40px 0;
+      }
+      .lead-small-text {
+          font-size: 80%;
+      }
+      .lead-large-text {
+          font-size: 150%;
+          margin-bottom: 10px;
+      }
+      #header-wrapper {
+          width: 100%;
+          height: 400px;
+      }
+      #header-wrapper .content .container .menubar-wrapper .nav-link,
+      #header-wrapper .content .container .menubar-wrapper .navbar .search-button {
+          padding-left: 20px;
+      }
+      #header-wrapper .content .container .menubar-wrapper .submit-wrapper {
+          display: none;
+      }
+      #header-wrapper .content .container .menubar-wrapper .logo-wrapper {
+          margin: 0 8px 0 auto;
+      }
+      #header-wrapper .content .container .menubar-wrapper .navbar h1 {
+          margin: 0 auto 0 0;
+      }
+      #header-wrapper .content .container h2 {
+          padding: 10px 50px;
+          font-size: 200%;
+      }
+      #header-wrapper .content .container .form-wrapper {
+          margin: 0;
+      }
+      #header-wrapper .content .container .form-wrapper .form-control-lg {
+          font-size: 1rem;
+          padding: .5rem;
+      }
+      #header-wrapper .content .container .form-wrapper .btn-lg {
+          font-size: 1rem;
+          padding: .5rem;
+      }
+      .feature-wrapper .feature-tabs .feature-icon-wrapper {
+          display: none;
+      }
+      .feature-wrapper .container {
+          margin: 40px auto 0 auto;
+          .row {
+              margin: 0;
+              padding: 0;
+          }
+      }
+      .feature-wrapper .feature-tabs {
+          padding: 20px;
+          p {
+              padding: 0 20px;
+          }
+      }
+      .best-house-wrapper .row .col-md-4 {
+          margin-bottom: 10px;
+      }
+      .best-house-wrapper .row .col-md-4 .card .detail-wrapper .card .row .col-2 span {
+          padding-right: 15px;
+      }
+      #video-wrapper .card-img-overlay .video-icon {
+          margin-top: 20px;
+          width: 50px;
+          height: 50px;
+      }
+      #video-wrapper .card-img-overlay .video-icon .icon-play {
+          font-size: 150%;
+      }
+      #video-wrapper .card-img-overlay .lead-large-text {
+          margin-bottom: 10px;
+      }
+      #video-wrapper .card-img-overlay .lead-small-text {
+          font-size: 70%;
+          margin-bottom: 0;
+      }
+      #comments-wrapper .card-img-overlay .sect-space {
+          padding: 0;
+      }
+      #comments-wrapper .card-img-overlay .comments-content-wrapper .lead-small-text {
+          display: none!important;
+      }
+      #comments-wrapper .card-img-overlay .comments-content-wrapper .card-text {
+          display: none;
+      }
+      #comments-wrapper .card-img-overlay .comments-content-wrapper .comments-profile-wrapper .testomonial-dp {
+          width: 50px;
+          height: 50px;
+          top: -20%;
+      }
+      #comments-wrapper .card-img-overlay .comments-content-wrapper .comments-profile-wrapper {
+          p {
+              font-weight: 500;
+              font-size: 90%;
+          }
+          h5 {
+              font-weight: 400;
+              font-size: 60%;
+              margin-bottom: 5px;
+          }
+      }
+      #comments-wrapper .card-img-overlay .comments-content-wrapper .comments-profile-wrapper {
+          margin-top: 30px;
+          padding: 20px;
+          padding-bottom: 10px;
+      }
+      #comments-wrapper .card-img-overlay .comments-content-wrapper .comments-profile-wrapper .fill,
+      #comments-wrapper .card-img-overlay .comments-content-wrapper .comments-profile-wrapper .unfill {
+          font-size: 80%;
+      }
+      #comments-wrapper .card-img-overlay .comments-content-wrapper .next-btn span,
+      #comments-wrapper .card-img-overlay .comments-content-wrapper .prev-btn span {
+          font-size: 180%;
+      }
+      #comments-wrapper .card-img-overlay {
+          padding: 2px;
+      }
+      #properties-wrapper .card-img-overlay .detail-wrapper .card .row .col-2 span {
+          padding-right: 30px;
+      }
+      #properties-wrapper .description-wrapper .history-wrapper ul {
+          justify-content: space-evenly;
+      }
+      .submit-property-wrapper .sect-space {
+          padding: 10px;
+      }
+      .submit-property-wrapper .card-img-overlay .lead-large-text {
+          margin-bottom: 5px;
+      }
+      .submit-property-wrapper .card-img-overlay .card-text {
+          padding: 0px;
+          font-size: 70%;
+          margin-bottom: 5px;
+      }
+      .submit-property-wrapper .card-img-overlay .links-wrapper a {
+          padding: 0.5rem;
+          width: 80px;
+          font-size: 60%;
+      }
+      .submit-property-wrapper .card-img-overlay .links-wrapper {
+          margin-top: 20px;
+      }
+      .agent-wrapper .agent-profile-wrapper .container .row .card .card-body {
+          padding: 2rem;
+      }
+      .agent-wrapper .agent-profile-wrapper .container .row .card .card-body .card-title {
+          font-size: 100%;
+      }
+      .agent-wrapper .agent-profile-wrapper .container .row .card .card-body .card-text {
+          font-size: 80%;
+      }
+      .agent-wrapper .agent-profile-wrapper .container .row .card .card-body .social-links-wrapper ul li {
+          height: 8%;
+          width: 15%;
+      }
+      .agent-wrapper .agent-profile-wrapper .container .row .card .card-body .social-links-wrapper ul li a {
+          font-size: 100%;
+      }
+      .agent-wrapper .agent-profile-wrapper .container .row .col-md-4 {
+          margin-bottom: 10px;
+      }
+      .place-wrapper .card-img-overlay {
+          padding: 10px;
+          .sect-space {
+              padding: 0;
+          }
+      }
+      .place-wrapper .card-img-overlay {
+          .lead-large-text {
+              margin-bottom: 5px;
+          }
+      }
+      .place-wrapper .card-img-overlay .text-link .card-text {
+          font-size: 60%;
+          margin-bottom: 0;
+      }
+      .place-wrapper .card-img-overlay .text-link a {
+          padding: 0.5rem;
+          width: 80px;
+          font-size: 60%;
+      }
+      .container .logo-wrapper {
+          height: 50px;
+          .logo-inner {
+              height: 100px;
+              top: -50px;
+              padding: 0.2rem 2rem;
+              span {
+                  font-size: 100px;
+              }
+          }
+      }
+      footer .col-md-4 {
+          margin-bottom: 30px;
+      }
+      .bottom-bar {
+          .navbar-expand .navbar-nav .nav-link {
+              padding: 0;
+              margin-right: 5px;
+          }
+      }
+      .bottom-bar .navbar-light .nav-link span {
+          padding: 10px;
+          font-size: 70%;
+      }
+      .bottom-bar .logo-wrapper {
+          margin: 0px 8px 0 0px;
+      }
+      //   about us page
+      .aboutus-wrapper .about-detail {
+          padding: 20px 0;
+      }
+      .aboutus-wrapper .record-wrapper h1,
+      .aboutus-wrapper .record-wrapper p {
+          text-align: left;
+      }
+      .map-wrapper .lead-large-text {
+          font-size: 200%;
+      }
+      #video-wrapper #video-overlay-wrapper .video-content {
+          width: 90%;
+      }
+  }
+  
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) and (max-width: 991.98px) {
+      .sect-space {
+          padding: 40px 0;
+      }
+      .lead-small-text {
+          font-size: 80%;
+      }
+      .lead-large-text {
+          font-size: 150%;
+          margin-bottom: 10px;
+      }
+      #header-wrapper .content .container h2 {
+          padding: 10px 50px;
+      }
+      #header-wrapper .content .container .menubar-wrapper .nav-link,
+      #header-wrapper .content .container .menubar-wrapper .navbar .search-button {
+          padding-left: 20px;
+      }
+      #header-wrapper .content .container .menubar-wrapper .submit-wrapper {
+          display: none;
+      }
+      #header-wrapper .content .container .form-wrapper {
+          margin: 30px 50px;
+      }
+      #header-wrapper .content .container .menubar-wrapper .logo-wrapper {
+          margin: 0 8px 0 auto;
+      }
+      #header-wrapper .content .container .menubar-wrapper .navbar h1 {
+          margin: 0 auto 0 0;
+      }
+      #header-wrapper {
+          width: 100%;
+          height: 520px;
+      }
+      .best-house-wrapper .row .col-md-4 .card .card-lead-text h5 {
+          padding: 5px 20px;
+          font-size: 80%;
+      }
+      .best-house-wrapper .row .col-md-4 .card .detail-wrapper .house-detail .col-3 h5 {
+          font-size: 70%;
+          margin-top: 0;
+      }
+      .best-house-wrapper .row .col-md-4 .card .detail-wrapper .card .row {
+          display: none;
+      }
+      .best-house-wrapper .row .col-md-4 .card .detail-wrapper .house-detail .col-3 a span {
+          font-size: 150%!important;
+      }
+      .best-house-wrapper .row .col-md-4 .card .detail-wrapper .house-detail .col-3 a {
+          font-size: 50%!important;
+      }
+      #video-wrapper .card-img-overlay .video-icon {
+          margin-top: 20px;
+          width: 70px;
+          height: 70px;
+      }
+      #video-wrapper .card-img-overlay .video-icon .icon-play {
+          font-size: 200%;
+      }
+      #video-wrapper .card-img-overlay .lead-large-text {
+          margin-bottom: 10px;
+      }
+      #video-wrapper .card-img-overlay .lead-small-text {
+          font-size: 80%;
+          margin-bottom: 0;
+      }
+      .categories-wrapper .card .card-img-overlay {
+          padding: 10px;
+          .card-title {
+              font-size: 90%;
+              margin-bottom: 5px;
+          }
+          .card-text {
+              padding: 5px 10px;
+          }
+      }
+      #comments-wrapper .card-img-overlay .comments-content-wrapper .comments-profile-wrapper .testomonial-dp {
+          width: 50px;
+          height: 50px;
+          top: -20%;
+      }
+      #comments-wrapper .card-img-overlay .comments-content-wrapper .comments-profile-wrapper {
+          p {
+              font-weight: 500;
+              font-size: 90%;
+          }
+          h5 {
+              font-weight: 400;
+              font-size: 60%;
+              margin-bottom: 5px;
+          }
+      }
+      #comments-wrapper .card-img-overlay .comments-content-wrapper .comments-profile-wrapper {
+          margin-top: 30px;
+          padding: 25px;
+          padding-bottom: 10px;
+      }
+      #comments-wrapper .card-img-overlay .comments-content-wrapper .comments-profile-wrapper .fill,
+      #comments-wrapper .card-img-overlay .comments-content-wrapper .comments-profile-wrapper .unfill {
+          font-size: 80%;
+      }
+      #comments-wrapper .card-img-overlay .comments-content-wrapper {
+          .card-text {
+              margin-bottom: 5px;
+              font-size: 80%;
+          }
+          .lead-large-text {
+              margin-bottom: 5px;
+          }
+      }
+      #comments-wrapper .card-img-overlay .comments-content-wrapper .next-btn span,
+      #comments-wrapper .card-img-overlay .comments-content-wrapper .prev-btn span {
+          font-size: 200%;
+      }
+      #properties-wrapper .card-img-overlay .detail-wrapper .card .row {
+          display: none;
+      }
+      #properties-wrapper .description-wrapper .history-wrapper li {
+          font-size: 70%;
+      }
+      .submit-property-wrapper .sect-space {
+          padding: 40px;
+      }
+      .submit-property-wrapper .card-img-overlay .lead-large-text {
+          margin-bottom: 5px;
+      }
+      .submit-property-wrapper .card-img-overlay .card-text {
+          padding: 0px;
+          font-size: 90%;
+      }
+      .submit-property-wrapper .card-img-overlay .card-text {
+          margin-bottom: 5px;
+      }
+      .submit-property-wrapper .card-img-overlay .links-wrapper a {
+          padding: 0.5rem;
+          width: 100px;
+      }
+      .submit-property-wrapper .card-img-overlay .links-wrapper {
+          margin-top: 20px;
+      }
+      .agent-wrapper .agent-profile-wrapper .container .row .card .card-body {
+          padding: 0.8rem 0rem;
+      }
+      .agent-wrapper .agent-profile-wrapper .container .row .card .card-body .card-title {
+          font-size: 100%;
+      }
+      .agent-wrapper .agent-profile-wrapper .container .row .card .card-body .card-text {
+          font-size: 80%;
+      }
+      .agent-wrapper .agent-profile-wrapper .container .row .card .card-body .social-links-wrapper ul li {
+          height: 5%;
+      }
+      .place-wrapper .card-img-overlay {
+          .lead-large-text {
+              margin-bottom: 10px;
+          }
+      }
+      .place-wrapper .card-img-overlay .text-link .card-text {
+          font-size: 80%;
+          margin-bottom: 0;
+      }
+      .place-wrapper .card-img-overlay .text-link a {
+          padding: 0.5rem;
+          width: 100px;
+          font-size: 80%;
+      }
+      .container .logo-wrapper {
+          height: 50px;
+          .logo-inner {
+              height: 100px;
+              top: -50px;
+              padding: 0.2rem 2rem;
+              span {
+                  font-size: 100px;
+              }
+          }
+      }
+      .newsfeed-wrapper .col-md-4 .card .card-body {
+          padding: 10px;
+          .card-content a {
+              font-size: 70%;
+              margin-right: 5px;
+              span {
+                  margin-right: 2px;
+              }
+          }
+          .card-title {
+              font-size: 105%;
+          }
+          .arrow-wrapper {
+              left: 50%;
+          }
+          .card-text {
+              font-size: 90%;
+          }
+      }
+      footer .col-md-4 .company-wrapper ul li a {
+          font-size: 60%;
+          span {
+              margin-right: 5px;
+          }
+      }
+      footer .col-md-4 .news-feed-wrapper ul li a {
+          font-size: 70%;
+      }
+      footer .col-md-4 .news-later form input {
+          width: 100%;
+      }
+      footer .col-md-4 .news-later form .btn {
+          border-radius: 0 0px 0px 0;
+          width: 100%;
+      }
+      footer .col-md-4 .news-later .row .col-4 {
+          max-width: 60%;
+          font-size: 60%;
+      }
+      footer .col-md-4 .news-later .row .col-2 {
+          max-width: 35%;
+          font-size: 60%;
+      }
+      footer .col-md-4 .news-later form input {
+          border-radius: 0px 0px 0px 0px;
+      }
+      .bottom-bar .logo-wrapper {
+          margin: 0px 8px 0 0px;
+      }
+      //   about us page
+      .aboutus-wrapper .about-detail {
+          padding: 2px;
+          h5 {
+              font-size: 100%;
+          }
+          p {
+              font-size: 70%;
+          }
+      }
+      .social-contact-wrapper ul li {
+          width: 30px;
+          height: 30px;
+      }
+      .social-contact-wrapper ul li a {
+          font-size: 90%;
+      }
+      .map-wrapper .lead-large-text {
+          font-size: 200%;
+      }
+      #video-wrapper #video-overlay-wrapper .video-content {
+          width: 80%;
+      }
+  }
+  
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+      #header-wrapper {
+          .content {
+              .info-bar {
+                  .navbar {
+                      .mr-auto {
+                          span {
+                              margin-right: 10px;
+                              font-size: 120%;
+                          }
+                          .nav-link {
+                              margin-right: 10px!important;
+                              font-size: 75%!important;
+                          }
+                      }
+                  }
+              }
+          }
+      }
+      .menubar-wrapper {
+          .navbar-expand-lg .navbar-nav .nav-link {
+              font-size: 95%!important;
+          }
+          h1 {
+              font-size: 180%!important;
+          }
+          .logo-wrapper {
+              width: 40px!important;
+              height: 40px!important;
+              margin: 0 5px 0 5px!important;
+          }
+          .navbar {
+              .search-button {
+                  margin-right: 20px!important;
+              }
+          }
+          .submit-wrapper {
+              .nav-link {
+                  font-size: 70%;
+                  padding: 1.2rem 1.5rem!important;
+              }
+          }
+          .add .icon-plus {
+              padding: 0.3rem!important;
+              border-radius: 10px!important;
+          }
+      }
+      .best-house-wrapper .row .col-md-4 .card .detail-wrapper .house-detail {
+          margin: 5px 0!important;
+      }
+      .best-house-wrapper .row .col-md-4 .card .detail-wrapper .house-detail .col-3 a span {
+          font-size: 120%!important;
+      }
+      .best-house-wrapper .row .col-md-4 .card .detail-wrapper .house-detail .col-3 a {
+          font-size: 70%!important;
+      }
+      .best-house-wrapper .row .col-md-4 .card .detail-wrapper .card .row .col-8 .card-body {
+          padding-left: 10px;
+      }
+      .best-house-wrapper .row .col-md-4 .card .detail-wrapper .house-detail .col-3 h5 {
+          font-size: 80%;
+          margin: 5px 0;
+      }
+      /*=============================================
+    =                   testmonial                   =
+    =============================================*/
+      #comments-wrapper .card-img-overlay .comments-content-wrapper .comments-profile-wrapper .testomonial-dp {
+          width: 60px;
+          height: 60px;
+          top: -17%;
+      }
+      #comments-wrapper .card-img-overlay .comments-content-wrapper .comments-profile-wrapper {
+          p {
+              font-weight: 500;
+              font-size: 70%;
+          }
+          h5 {
+              font-weight: 400;
+              font-size: 80%;
+          }
+      }
+      #comments-wrapper .card-img-overlay .comments-content-wrapper .comments-profile-wrapper {
+          margin-top: 30px;
+          padding: 32px;
+      }
+      #comments-wrapper .card-img-overlay .comments-content-wrapper {
+          .card-text {
+              margin-bottom: 5px;
+          }
+          .lead-large-text {
+              margin-bottom: 5px;
+          }
+      }
+      #comments-wrapper .card-img-overlay .comments-content-wrapper .next-btn span,
+      #comments-wrapper .card-img-overlay .comments-content-wrapper .prev-btn span {
+          font-size: 200%;
+      }
+      /*============  End of testmonial  =============*/
+      .submit-property-wrapper .card-img-overlay {
+          .card-text {
+              font-size: 70%;
+          }
+          .lead-large-text {
+              margin-bottom: 5px;
+          }
+      }
+      .place-wrapper .card-img-overlay {
+          .card-text {
+              font-size: 100%!important;
+          }
+          .lead-large-text {
+              margin-bottom: 10px;
+          }
+      }
+      .container .logo-wrapper {
+          height: 50px;
+          .logo-inner {
+              height: 100px;
+              top: -50px;
+              padding: 0.2rem 2rem;
+              span {
+                  font-size: 100px;
+              }
+          }
+      }
+      footer .col-md-4 .news-later form input {
+          width: 180px;
+      }
+      footer .col-md-4 .news-later .row .col-4,
+      footer .col-md-4 {
+          max-width: 40%;
+      }
+      footer .col-md-4 .news-later .row .col-2 {
+          max-width: 35%;
+      }
+      .bottom-bar .logo-wrapper {
+          margin: 0px 8px 0 0px;
+      }
+      .social-contact-wrapper ul li {
+          width: 40px;
+          height: 40px;
+      }
+      .social-contact-wrapper ul li a {
+          font-size: 90%;
+      }
+  }
+  
+  // Extra large devices (large desktops, 1200px and up)
+  // @media (min-width: 1200px) {}
+  // Extra large devices (large desktops, 1200px and up)
+  // @media (min-width: 1200px) {}sktops, 1200px and up)
+  // @media (min-width: 1200px) {}sktops, 1200px and up)
+  // @media (min-width: 1200px) {}

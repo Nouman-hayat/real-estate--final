@@ -1,0 +1,182 @@
+/*=============================================
+=                   footer                   =
+=============================================*/
+
+footer {
+    position: relative;
+    z-index: -99999;
+    background-color: $black;
+    color: white;
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    .col-md-4 {
+        .company-wrapper {
+            p {
+                font-size: 95%;
+            }
+            ul {
+                li {
+                    padding: 10px 0;
+                    a {
+                        text-decoration: none;
+                        font-size: 85%;
+                        color: white;
+                        span {
+                            font-size: 120%;
+                            margin-right: 5px;
+                        }
+                    }
+                }
+            }
+        }
+        .news-feed-wrapper {
+            h5 {
+                position: relative;
+            }
+            ul {
+                margin-top: 20px;
+                & :nth-child(1) {
+                    &::after {
+                        position: absolute;
+                        content: "";
+                        top: 40px;
+                        left: 18px;
+                        width: 80%;
+                        height: 1px;
+                        display: block;
+                        background-color: white;
+                    }
+                }
+                & :nth-child(2) {
+                    &::after {
+                        position: absolute;
+                        content: "";
+                        top: 95px;
+                        left: 18px;
+                        width: 80%;
+                        height: 1px;
+                        display: block;
+                        background-color: white;
+                    }
+                }
+                & :nth-child(3) {
+                    &::after {
+                        position: absolute;
+                        content: "";
+                        top: 150px;
+                        left: 18px;
+                        width: 80%;
+                        height: 1px;
+                        display: block;
+                        background-color: white;
+                    }
+                }
+                & :nth-child(4) {
+                    &::after {
+                        position: absolute;
+                        content: "";
+                        top: 205px;
+                        left: 18px;
+                        width: 80%;
+                        height: 1px;
+                        display: block;
+                        background-color: white;
+                    }
+                }
+                li {
+                    padding: 15px 0;
+                    a {
+                        text-decoration: none;
+                        font-size: 80%;
+                        color: white;
+                        margin-right: 10px;
+                        span {
+                            font-size: 120%;
+                            margin-right: 5px;
+                        }
+                    }
+                }
+                &::before {
+                    position: absolute;
+                    content: "";
+                    top: 260px;
+                    left: 18px;
+                    width: 80%;
+                    height: 1px;
+                    display: block;
+                    background-color: white;
+                }
+            }
+        }
+        .news-later {
+            form {
+                .form-control {
+                    &:focus {
+                        background-color: white;
+                        border-color: white;
+                        outline: 0;
+                        box-shadow: none;
+                    }
+                }
+                input {
+                    color: rgb(235, 235, 235);
+                    border-color: rgb(235, 235, 235);
+                    background-color: $black;
+                    border-radius: 5px 0px 0px 5px;
+                }
+                .btn {
+                    border-radius: 0 5px 5px 0;
+                    background-color: $green;
+                    color: white;
+                }
+            }
+            & :nth-child(4) {
+                margin: 20px 0;
+            }
+            .row {
+                .col-4,
+                .col-2 {
+                    padding: 5px 10px;
+                    margin: 0;
+                    color: rgb(235, 235, 235);
+                    border: 1px solid white;
+                    border-radius: 20px;
+                    text-align: center;
+                    margin-bottom: 10px;
+                    font-size: 80%;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+
+#scroll-wrapper {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    width: 50px;
+    margin-left: auto;
+    opacity: 0;
+    margin-right: 10px;
+    span {
+        padding: 15px;
+        background-color: $green;
+        color: rgb(255, 255, 255);
+        border-radius: 5px;
+    }
+}
+
+#scroll-wrapper.active {
+    opacity: 1;
+}
+
+
+/*============  End of footer  =============*/
